@@ -35,7 +35,8 @@
                 <nav id="navbar" class="navbar">
                     <ul>
                         <li><a class="nav-link scrollto" href="/about.php">About</a></li>
-                        <li><a class="nav-link scrollto" href="/statistics.php">Statistics</a></li>
+		
+			<li><a class="nav-link scrollto" href="/statistics.php">Statistics</a></li>
                         <li><a target="_blank" href="https://github.com/NullBrunk/PHPChat">Source</a></li>
                         <li><a class="nav-link scrollto " href="/auth/signup.php">Sign-up</a></li>
                         <?php if(!isset($_SESSION["logged"])): ?>
